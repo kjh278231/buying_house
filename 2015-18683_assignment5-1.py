@@ -86,7 +86,7 @@ def planning_a_date(n, edge_list, D):
       if L[MAX_index][i] !=0 and L[MAX_index][i]!=-1:
         dist[str(i+1)] = L[MAX_index][i]
     best_city = MAX_index+1
-    # print(dist)
+    print(dist)
     
           
       
